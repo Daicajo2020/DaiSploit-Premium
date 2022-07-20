@@ -1,0 +1,35 @@
+--Made by Daicajo2020#4531 premium edition for daisploit!
+--thank you for buying daisploit
+--you can use this script now.
+--something are patched we will fix soon!
+--Arsenal tab coming soon! Because arsenal have a lot of script!
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("DaiHub Premium Release 2.0X", "Synapse")
+
+local Tab = Window:NewTab("Brookhaven")
+local BrookhavenSection = Tab:NewSection("Brookhaven")
+BrookhavenSection:NewButton("Load Infinite Yield", "Load infinite yield to your game.", function()
+    print("Infinite Yield Loaded Into Game.")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+BrookhavenSection:NewButton("Load Ice Hub", "Load Ice Hub to your game.", function()
+    print("Ice Hub Loaded Into Game.")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+local Tab = Window:NewTab("My_Restaurant")
+local My_RestaurantSection = Tab:NewSection("My Restaurant")
+My_RestaurantSection:NewButton("Load My Restaurant script", "Load My Restaurant script from void script to your game.", function()
+    print("My Restaurant script Loaded Into Game.")
+    loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))() 
+end)
+
+local Tab = Window:NewTab("Mad_City")
+local Mad_CitySection = Tab:NewSection("Mad City")
+Mad_CitySection:NewButton("Load Infinte Cash script", "Load Infinite cash script to your game for mad city.", function()
+    print("Infinite cash script Loaded Into Game.")
+    loadstring(game:HttpGet('https://www.system-exodus.com/scripts/madcity/MadLadsAR.lua'))()
+end)
+
+local Tab = Window:NewTab("Credits")
+CreditsSection:NewLabel("Scripts: Daicajo2020#4531")
